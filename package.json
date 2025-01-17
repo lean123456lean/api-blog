@@ -2,11 +2,11 @@
   "name": "blog",
   "version": "1.0.0",
   "description": "Um blog interativo dedicado a desenvolvedores júnior no início de suas carreiras. Os usuários podem explorar postagens que são atualizadas automaticamente com base em APIs externas e fazer comentários em tempo real.",
-  "main": "server.js",
+  "main": "hello.js",
 
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js --watch"
+    "start": "node hello.js --watch"
   },
   "keywords": [],
   "author": "",
