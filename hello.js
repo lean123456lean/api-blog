@@ -14,8 +14,11 @@ const db = new sqlite3.Database('./database.db');
 
 // Middleware
 app.use(cors({
-  origin: ['https://lean123456lean.github.io/JUNINHO-BLOG/', 'http://127.0.0.1:5503'],
+  origin: ['https://lean123456lean.github.io', 'http://127.0.0.1:5503'],
+  methods: 'GET,POST,PUT,DELETE',
+  allowedHeaders: 'Content-Type,Authorization',
 }));
+
 app.use(bodyParser.json());
 app.use(cookieParser());
 
